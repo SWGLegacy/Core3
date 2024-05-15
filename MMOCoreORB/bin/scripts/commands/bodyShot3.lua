@@ -46,14 +46,14 @@ BodyShot3Command = {
 
 	damageMultiplier = 4,
 	speedMultiplier = 1,
-	healthCostMultiplier = 0.75,
+	healthCostMultiplier = 0,
 	actionCostMultiplier = 1.25,
 	mindCostMultiplier = 0.75,
         accuracyBonus = 50,
 
 	poolsToDamage = HEALTH_ATTRIBUTE,
 
-	animation = "fire_1_special_single", 
+	animation = "fire_1_special_single",
 	animType = GENERATE_RANGED,
 
 	combatSpam = "bodyshot",

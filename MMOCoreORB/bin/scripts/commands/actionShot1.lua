@@ -46,14 +46,14 @@ ActionShot1Command = {
 
 	damageMultiplier = 1.0,
 	speedMultiplier = 1.5,
-	healthCostMultiplier = 1.75,
-	actionCostMultiplier = 1.25,
+	healthCostMultiplier = 0,
+	actionCostMultiplier = 1.75,
 	mindCostMultiplier = 0.5,
 	accuracyBonus = 25,
 
-	poolsToDamage = ACTION_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 
-	animation = "fire_3_single", 
+	animation = "fire_3_single",
 	animType = GENERATE_RANGED,
 
 	combatSpam = "sapshot",

@@ -46,17 +46,17 @@ PolearmLegHit3Command = {
 
 	damageMultiplier = 2.5,
 	speedMultiplier = 2.25,
-	healthCostMultiplier = 2.0,
-	actionCostMultiplier = 1.5,
+	healthCostMultiplier = 0,
+	actionCostMultiplier = 2.0,
 	mindCostMultiplier = 1.5,
 	accuracyBonus = 10,
 
-	animation = "combo_3b", 
+	animation = "combo_3b",
 	animType = GENERATE_INTENSITY,
 
 	combatSpam = "legbreaker",
 
-	poolsToDamage = ACTION_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 	
 	weaponType = POLEARMWEAPON,
 

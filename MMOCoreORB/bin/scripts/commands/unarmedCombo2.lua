@@ -46,14 +46,14 @@ UnarmedCombo2Command = {
 
 	damageMultiplier = 3.0,
 	speedMultiplier = 4.0,
-	healthCostMultiplier = 2.0,
+	healthCostMultiplier = 0,
 	actionCostMultiplier = 2.0,
 	mindCostMultiplier = 2.0,
         accuracyBonus = 15,
 
-	poolsToDamage = HEALTH_ATTRIBUTE + ACTION_ATTRIBUTE + MIND_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 
-	animation = "combo_4a", 
+	animation = "combo_4a",
 	animType = GENERATE_INTENSITY,
 
 	combatSpam = "deathweave",

@@ -46,8 +46,8 @@ PolearmActionHit1Command = {
 
 	damageMultiplier = 1.0,
 	speedMultiplier = 1.5,
-	healthCostMultiplier = 1.0,
-	actionCostMultiplier = 0.5,
+	healthCostMultiplier = 0,
+	actionCostMultiplier = 1,
 	mindCostMultiplier = 0.5,
 	accuracyBonus = 10,
 
@@ -70,7 +70,7 @@ PolearmActionHit1Command = {
 	
 	weaponType = POLEARMWEAPON,
 
-	poolsToDamage = ACTION_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 
 	range = -1
 }

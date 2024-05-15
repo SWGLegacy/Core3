@@ -46,12 +46,12 @@ Melee1hHit1Command = {
 
 	damageMultiplier = 2.5,
 	speedMultiplier = 1.5,
-	healthCostMultiplier = 0.5,
+	healthCostMultiplier = 0,
 	actionCostMultiplier = 0.5,
 	mindCostMultiplier = 0.625,
         accuracyBonus = 25,
 
-	animation = "counter_high_center", 
+	animation = "counter_high_center",
 	animType = GENERATE_INTENSITY,
 
 	combatSpam = "chomai",

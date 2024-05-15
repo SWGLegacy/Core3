@@ -45,16 +45,16 @@ Melee2hHeadHit3Command = {
         name = "melee2hheadhit3",
 	damageMultiplier = 3.5,
 	speedMultiplier = 2.25,
-	healthCostMultiplier = 1.5,
+	healthCostMultiplier = 0,
 	actionCostMultiplier = 2.0,
 	mindCostMultiplier = 1.5,
         accuracyBonus = 10,
 
-	poolsToDamage = MIND_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 	
 	weaponType = TWOHANDMELEEWEAPON,
 
-	animation = "combo_2d", 
+	animation = "combo_2d",
 	animType = GENERATE_INTENSITY,
 
 	combatSpam = "scalpslam",

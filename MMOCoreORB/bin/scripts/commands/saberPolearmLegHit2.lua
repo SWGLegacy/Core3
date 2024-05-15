@@ -58,7 +58,7 @@ SaberPolearmLegHit2Command = {
 
 	combatSpam = "saberpolearmleghit2",
 
-	poolsToDamage = ACTION_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 
 	weaponType = POLEARMJEDIWEAPON,
 

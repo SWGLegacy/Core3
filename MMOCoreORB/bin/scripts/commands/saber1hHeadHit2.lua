@@ -58,7 +58,7 @@ Saber1hHeadHit2Command = {
 
 	combatSpam = "saber1hheadhit2",
 
-	poolsToDamage = MIND_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 
 	weaponType = ONEHANDJEDIWEAPON,
 

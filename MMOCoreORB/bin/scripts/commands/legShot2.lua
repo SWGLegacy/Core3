@@ -44,9 +44,9 @@
 LegShot2Command = {
 	name = "legshot2",
 
-	damageMultiplier = 2,
+	damageMultiplier = 3,
 	speedMultiplier = 2,
-	healthCostMultiplier = 0.5,
+	healthCostMultiplier = 0,
 	actionCostMultiplier = 1.5,
 	mindCostMultiplier = 1.5,
 	accuracyBonus = 25,
@@ -63,7 +63,7 @@ LegShot2Command = {
 	  )
 	},
 
-	poolsToDamage = ACTION_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 
 	animation = "test_homing",
 

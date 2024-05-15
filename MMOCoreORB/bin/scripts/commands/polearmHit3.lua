@@ -45,8 +45,8 @@ PolearmHit3Command = {
         name = "polearmhit3",
 	damageMultiplier = 4.0,
 	speedMultiplier = 2.5,
-	healthCostMultiplier = 2.0,
-	actionCostMultiplier = 1.5,
+	healthCostMultiplier = 0,
+	actionCostMultiplier = 2,
 	mindCostMultiplier = 1.5,
 	accuracyBonus = 10,
 
@@ -71,7 +71,7 @@ PolearmHit3Command = {
 	  )
 	},
 
-	animation = "combo_5a", 
+	animation = "combo_5a",
 	animType = GENERATE_INTENSITY,
 
 	combatSpam = "bonebreaker",

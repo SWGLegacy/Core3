@@ -46,16 +46,16 @@ Melee2hHeadHit2Command = {
 
 	damageMultiplier = 2.5,
 	speedMultiplier = 1.75,
-	healthCostMultiplier = 1.0,
+	healthCostMultiplier = 0,
 	actionCostMultiplier = 1.5,
 	mindCostMultiplier = 1.0,
         accuracyBonus = 10,
 
-	poolsToDamage = MIND_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 	
 	weaponType = TWOHANDMELEEWEAPON,
 
-	animation = "combo_2d", 
+	animation = "combo_2d",
 	animType = GENERATE_INTENSITY,
 
 	combatSpam = "scalpstrike",
