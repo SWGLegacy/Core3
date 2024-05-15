@@ -46,7 +46,7 @@ FullAutoSingle2Command = {
 
 	damageMultiplier = 3.5,
 	speedMultiplier = 1.5,
-	healthCostMultiplier = 2.0,
+	healthCostMultiplier = 0,
 	actionCostMultiplier = 2.5,
 	mindCostMultiplier = 0.5,
 	accuracyBonus = 25,
@@ -86,7 +86,7 @@ FullAutoSingle2Command = {
 	  )
 	},
 
-	poolsToDamage = RANDOM_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 	
 	weaponType = CARBINEWEAPON,
 

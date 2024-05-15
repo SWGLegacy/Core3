@@ -46,7 +46,7 @@ MultiTargetPistolShotCommand = {
 
 	damageMultiplier = 4.2,
 	speedMultiplier = 3.5,
-	healthCostMultiplier = 0.5,
+	healthCostMultiplier = 0,
 	actionCostMultiplier = 1.25,
 	mindCostMultiplier = 0.5,
 	accuracyBonus = 50,
@@ -54,7 +54,7 @@ MultiTargetPistolShotCommand = {
 	areaAction = true,
         areaRange = 32,
         
-	poolsToDamage = RANDOM_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 
 	animation = "fire_5_special_single",
 	animType = GENERATE_RANGED,

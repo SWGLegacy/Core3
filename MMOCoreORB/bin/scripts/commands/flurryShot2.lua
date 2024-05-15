@@ -46,7 +46,7 @@ FlurryShot2Command = {
 
 	damageMultiplier = 2.5,
 	speedMultiplier = 2.0,
-	healthCostMultiplier = 0.5,
+	healthCostMultiplier = 0,
 	actionCostMultiplier = 0.5,
 	mindCostMultiplier = 2.0,
 	accuracyBonus = 5,
@@ -66,7 +66,7 @@ FlurryShot2Command = {
 	  )
 	},
 
-	poolsToDamage = RANDOM_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 
 	animation = "fire_area", 
 	animType = GENERATE_INTENSITY,

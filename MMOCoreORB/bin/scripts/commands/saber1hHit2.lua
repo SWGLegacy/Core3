@@ -70,7 +70,7 @@ Saber1hHit2Command = {
 		)
 	},
 
-	poolsToDamage = RANDOM_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 
 	weaponType = ONEHANDJEDIWEAPON,
 

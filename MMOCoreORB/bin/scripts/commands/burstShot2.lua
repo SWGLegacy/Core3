@@ -46,14 +46,14 @@ BurstShot2Command = {
 
 	damageMultiplier = 4.0,
 	speedMultiplier = 2.0,
-	healthCostMultiplier = 2.0,
-	actionCostMultiplier = 1.25,
+	healthCostMultiplier = 0,
+	actionCostMultiplier = 2.0,
 	mindCostMultiplier = 0.5,
         accuracyBonus = 25,
 	coneAngle = 30,
 	coneAction = true,
 
-	poolsToDamage = RANDOM_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 
 	animation = "fire_7_single", 
 	animType = GENERATE_RANGED,

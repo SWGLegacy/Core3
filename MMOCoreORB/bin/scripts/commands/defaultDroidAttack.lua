@@ -52,7 +52,7 @@ DefaultDroidAttackCommand = {
 
 	combatSpam = "attack",
 
-	poolsToDamage = RANDOM_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 
 	trails = 255,
 }

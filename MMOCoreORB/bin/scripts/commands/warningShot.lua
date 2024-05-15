@@ -46,12 +46,12 @@ WarningShotCommand = {
 
 	damageMultiplier = 0.25,
 	speedMultiplier = 2,
-	healthCostMultiplier = 1,
+	healthCostMultiplier = 0,
 	actionCostMultiplier = 1,
 	mindCostMultiplier = 1,
 	accuracyBonus = 15,
 
-	poolsToDamage = RANDOM_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 
 	animation = "fire_area",
 	animType = GENERATE_INTENSITY,

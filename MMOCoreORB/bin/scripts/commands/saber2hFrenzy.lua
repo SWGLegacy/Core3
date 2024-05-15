@@ -90,7 +90,7 @@ Saber2hFrenzyCommand = {
 
 	combatSpam = "saber2hfrenzy",
 
-	poolsToDamage = RANDOM_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 
 	weaponType = TWOHANDJEDIWEAPON,
 

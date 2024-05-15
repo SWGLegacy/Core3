@@ -46,7 +46,7 @@ StrafeShot2Command = {
 
 	damageMultiplier = 5.0,
 	speedMultiplier = 2.0,
-	healthCostMultiplier = 0.5,
+	healthCostMultiplier = 0,
 	actionCostMultiplier = 0.5,
 	mindCostMultiplier = 2.0,
 	accuracyBonus = 5,
@@ -54,7 +54,7 @@ StrafeShot2Command = {
 	coneAngle = 60,
 	coneAction = true,
 
-	poolsToDamage = RANDOM_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 
 	stateEffects = {
 	  StateEffect(

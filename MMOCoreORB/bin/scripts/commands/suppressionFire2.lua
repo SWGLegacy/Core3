@@ -46,8 +46,8 @@ SuppressionFire2Command = {
 
 	damageMultiplier = 2.5,
 	speedMultiplier = 1.5,
-	healthCostMultiplier = 2.0,
-	actionCostMultiplier = 1.25,
+	healthCostMultiplier = 0,
+	actionCostMultiplier = 2,
 	mindCostMultiplier = 0.5,
 	accuracyBonus = 25,
 
@@ -63,7 +63,7 @@ SuppressionFire2Command = {
 		)
 	},
 
-	poolsToDamage = RANDOM_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 
 	animation = "fire_defender_posture_change_down",
 

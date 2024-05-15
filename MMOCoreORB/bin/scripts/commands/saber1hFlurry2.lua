@@ -90,7 +90,7 @@ Saber1hFlurry2Command = {
 
 	combatSpam = "saber1hflurry2",
 
-	poolsToDamage = RANDOM_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 
 	weaponType = ONEHANDJEDIWEAPON,
 

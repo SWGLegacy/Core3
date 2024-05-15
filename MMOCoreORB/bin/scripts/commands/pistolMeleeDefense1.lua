@@ -46,7 +46,7 @@ PistolMeleeDefense1Command = {
 
 	damageMultiplier = 3.0,
 	speedMultiplier = 2.0,
-	healthCostMultiplier = 0.50,
+	healthCostMultiplier = 0,
 	actionCostMultiplier = 0.75,
 	mindCostMultiplier = 0.50,
         accuracyBonus = 50,
@@ -63,7 +63,7 @@ PistolMeleeDefense1Command = {
 	  )
 	},
 
-	poolsToDamage = RANDOM_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 
 	animation = "ranged_melee", 
 	animType = GENERATE_INTENSITY,

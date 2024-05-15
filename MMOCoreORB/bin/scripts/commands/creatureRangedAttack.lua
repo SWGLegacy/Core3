@@ -5,7 +5,7 @@ CreatureRangedAttackCommand = {
 	damageMultiplier = 1,
 	speedMultiplier = 1,
 	combatSpam = "attack",
-	poolsToDamage = RANDOM_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 	trails = 255,
 }
 

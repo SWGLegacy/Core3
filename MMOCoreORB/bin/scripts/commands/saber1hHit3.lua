@@ -70,7 +70,7 @@ Saber1hHit3Command = {
 
 	combatSpam = "saber1hhit3",
 
-	poolsToDamage = RANDOM_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 
 	weaponType = ONEHANDJEDIWEAPON,
 

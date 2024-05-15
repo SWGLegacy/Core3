@@ -46,8 +46,8 @@ WildShot1Command = {
 
 	damageMultiplier = 2.25,
 	speedMultiplier = 2.0,
-	healthCostMultiplier = 1.75,
-	actionCostMultiplier = 1.25,
+	healthCostMultiplier = 0,
+	actionCostMultiplier = 1.75,
 	mindCostMultiplier = 0.5,
 	accuracyBonus = 25,
 
@@ -68,7 +68,7 @@ WildShot1Command = {
 	  )
 	},
 
-	poolsToDamage = RANDOM_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 	
 	weaponType = CARBINEWEAPON,
 

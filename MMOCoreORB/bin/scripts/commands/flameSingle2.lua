@@ -46,12 +46,12 @@ FlameSingle2Command = {
 
 	damageMultiplier = 8,
 	speedMultiplier = 4,
-	healthCostMultiplier = 2.0,
-	actionCostMultiplier = 0.5,
+	healthCostMultiplier = 0,
+	actionCostMultiplier = 2.0,
 	mindCostMultiplier = 0.5,
 	accuracyBonus = 0,
 
-	poolsToDamage = RANDOM_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 
 	animation = "fire_flame_thrower_single_2", 
 	animType = GENERATE_INTENSITY,

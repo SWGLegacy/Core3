@@ -68,7 +68,7 @@ ForceThrow1Command = {
 
 	combatSpam = "forcethrow1",
 
-	poolsToDamage = RANDOM_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 
 	forceAttack = true,
 	damageType = KINETIC_DAMAGE,

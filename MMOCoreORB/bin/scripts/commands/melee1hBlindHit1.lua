@@ -46,7 +46,7 @@ Melee1hBlindHit1Command = {
 
 	damageMultiplier = 2.0,
 	speedMultiplier = 1.5,
-	healthCostMultiplier = 0.5,
+	healthCostMultiplier = 0,
 	actionCostMultiplier = 0.5,
 	mindCostMultiplier = 0.625,
         accuracyBonus = 25,
@@ -63,7 +63,7 @@ Melee1hBlindHit1Command = {
 	  )
 	},
 
-	poolsToDamage = RANDOM_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 	weaponType = ONEHANDMELEEWEAPON,
 
 	animation = "combo_4b", 

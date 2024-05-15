@@ -58,7 +58,7 @@ CounterAttackCommand = {
 
 	trails = NOTRAIL,
 
-	poolsToDamage = RANDOM_ATTRIBUTE
+	poolsToDamage = HEALTH_ATTRIBUTE
 }
 
 AddCommand(CounterAttackCommand)

@@ -70,7 +70,7 @@ Saber2hSweep2Command = {
 
 	combatSpam = "saber2hsweep2",
 
-	poolsToDamage = RANDOM_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 
 	weaponType = TWOHANDJEDIWEAPON,
 

@@ -58,7 +58,7 @@ SaberPolearmHit1Command = {
 
 	combatSpam = "saberpolearmhit1",
 
-	poolsToDamage = RANDOM_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 
 	weaponType = POLEARMJEDIWEAPON,
 
