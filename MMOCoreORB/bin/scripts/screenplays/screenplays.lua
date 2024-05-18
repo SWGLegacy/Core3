@@ -61,6 +61,8 @@ includeFile("utils/quest_spawner.lua")
 includeFile("tools/tools.lua")
 includeFile("tools/shuttle_dropoff.lua")
 includeFile("tools/firework_event.lua")
+includeFile("tools/mission_direction_choice.lua")
+includeFile("tools/mission_level_choice.lua")
 
 includeFile("trainers/trainerData.lua")
 includeFile("trainers/skillTrainer.lua")
@@ -734,6 +736,9 @@ includeFile("tests/ai_test.lua")
 
 -- Server Event Automation
 includeFile("events/ServerEventAutomation.lua")
+
+includeFile("legacy/merchant_system.lua")
+includeFile("legacy/crazy_larry.lua")
 
 -- Custom content - Loads last to allow for overrides
 includeFile("../custom_scripts/screenplays/screenplays.lua")

@@ -46,5 +46,7 @@ includeFile("lair/serverobjects.lua")
 -- Outfits
 includeFile("outfits/serverobjects.lua")
 
+includeFile("legacy/crazy_larry.lua")
+
 -- Custom content - Loads last to allow for overrides
 includeFile("../custom_scripts/mobile/serverobjects.lua")

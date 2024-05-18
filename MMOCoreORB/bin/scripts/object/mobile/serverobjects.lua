@@ -2657,3 +2657,6 @@ includeFile("mobile/zabrak_female.lua")
 includeFile("mobile/zabrak_male.lua")
 includeFile("mobile/zucca_boar.lua")
 includeFile("mobile/zucca_boar_hue.lua")
+
+--EiF addition for multipassenger
+includeFile("mobile/passenger_flash_speeder.lua")

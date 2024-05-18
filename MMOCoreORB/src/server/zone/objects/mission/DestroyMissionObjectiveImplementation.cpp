@@ -7,11 +7,13 @@
 
 #include "server/zone/objects/mission/DestroyMissionObjective.h"
 #include "server/zone/objects/area/MissionSpawnActiveArea.h"
+#include "server/zone/objects/creature/ai/AiAgent.h"
 
 #include "server/zone/objects/waypoint/WaypointObject.h"
 #include "server/zone/Zone.h"
 #include "server/zone/ZoneServer.h"
 #include "server/zone/managers/planet/PlanetManager.h"
+#include "server/zone/managers/player/PlayerManager.h"
 #include "server/zone/objects/mission/MissionObject.h"
 #include "server/zone/objects/mission/MissionObserver.h"
 #include "server/zone/objects/creature/CreatureObject.h"
@@ -292,7 +294,21 @@ void DestroyMissionObjectiveImplementation::addMissionStats(TransactionLog& trx)
 }
 
 void DestroyMissionObjectiveImplementation::complete() {
+	ManagedReference<MissionObject* > mission = this->mission.get();
 
+	if ((hasObservers() && lairObject != nullptr) || mission == nullptr) {
+		return;
+	}
+	
+	ManagedReference<CreatureObject*> player = getPlayerOwner();
+	ManagedReference<PlayerManager*> playerManager = player->getZoneServer()->getPlayerManager();
+	LairTemplate* lair = CreatureTemplateManager::instance()->getLairTemplate(lairTemplate.hashCode());
+	ManagedReference<AiAgent*> ai = cast<AiAgent*>(lair);
+
+	if (player != nullptr) {
+		playerManager->awardExperience(player, "combat_general", ai->getBaseXp() * 2);
+	}
+	
 	MissionObjectiveImplementation::complete();
 }
 
